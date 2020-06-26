@@ -1,8 +1,14 @@
 import BlogLayout from 'src/layouts/BlogLayout'
 
-const HomePage = () => {
+import BlogPostsCell from 'src/components/BlogPostsCell'
 
-  return <BlogLayout>Home</BlogLayout>
+const HomePage = () => {
+  return (
+    <BlogLayout>
+
+      <BlogPostsCell />
+    </BlogLayout>
+  )
 }
 
 export default HomePage
