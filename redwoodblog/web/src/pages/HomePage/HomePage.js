@@ -5,7 +5,6 @@ import BlogPostsCell from 'src/components/BlogPostsCell'
 const HomePage = () => {
   return (
     <BlogLayout>
-
       <BlogPostsCell />
     </BlogLayout>
   )
